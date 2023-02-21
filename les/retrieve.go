@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common/mclock"
-	"github.com/Fantom-foundation/go-ethereum/light"
+	"github.com/cryptonetworking/go-ethereum/common/mclock"
+	"github.com/cryptonetworking/go-ethereum/light"
 )
 
 var (

@@ -20,12 +20,12 @@ import (
 	"encoding/binary"
 	"sync/atomic"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi/bind"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/contracts/checkpointoracle"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/cryptonetworking/go-ethereum/accounts/abi/bind"
+	"github.com/cryptonetworking/go-ethereum/common"
+	"github.com/cryptonetworking/go-ethereum/contracts/checkpointoracle"
+	"github.com/cryptonetworking/go-ethereum/crypto"
+	"github.com/cryptonetworking/go-ethereum/log"
+	"github.com/cryptonetworking/go-ethereum/params"
 )
 
 // checkpointOracle is responsible for offering the latest stable checkpoint

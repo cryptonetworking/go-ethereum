@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common/mclock"
-	"github.com/Fantom-foundation/go-ethereum/common/prque"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/cryptonetworking/go-ethereum/common/mclock"
+	"github.com/cryptonetworking/go-ethereum/common/prque"
+	"github.com/cryptonetworking/go-ethereum/ethdb"
+	"github.com/cryptonetworking/go-ethereum/log"
+	"github.com/cryptonetworking/go-ethereum/p2p/enode"
+	"github.com/cryptonetworking/go-ethereum/rlp"
 )
 
 const (

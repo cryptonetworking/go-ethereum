@@ -24,17 +24,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/mclock"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/les/flowcontrol"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/params"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/cryptonetworking/go-ethereum/common"
+	"github.com/cryptonetworking/go-ethereum/common/mclock"
+	"github.com/cryptonetworking/go-ethereum/core/rawdb"
+	"github.com/cryptonetworking/go-ethereum/core/types"
+	"github.com/cryptonetworking/go-ethereum/crypto"
+	"github.com/cryptonetworking/go-ethereum/les/flowcontrol"
+	"github.com/cryptonetworking/go-ethereum/log"
+	"github.com/cryptonetworking/go-ethereum/p2p"
+	"github.com/cryptonetworking/go-ethereum/p2p/enode"
+	"github.com/cryptonetworking/go-ethereum/params"
+	"github.com/cryptonetworking/go-ethereum/rlp"
 )
 
 // requestBenchmark is an interface for different randomized request generators

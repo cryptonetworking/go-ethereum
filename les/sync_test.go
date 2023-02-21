@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi/bind"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/light"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/cryptonetworking/go-ethereum/accounts/abi/bind"
+	"github.com/cryptonetworking/go-ethereum/core"
+	"github.com/cryptonetworking/go-ethereum/crypto"
+	"github.com/cryptonetworking/go-ethereum/light"
+	"github.com/cryptonetworking/go-ethereum/params"
 )
 
 // Test light syncing which will download all headers from genesis.

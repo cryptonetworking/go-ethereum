@@ -21,15 +21,15 @@ import (
 	"net"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/mclock"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/eth"
-	"github.com/Fantom-foundation/go-ethereum/les/flowcontrol"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/cryptonetworking/go-ethereum/common"
+	"github.com/cryptonetworking/go-ethereum/common/mclock"
+	"github.com/cryptonetworking/go-ethereum/core/rawdb"
+	"github.com/cryptonetworking/go-ethereum/crypto"
+	"github.com/cryptonetworking/go-ethereum/eth"
+	"github.com/cryptonetworking/go-ethereum/les/flowcontrol"
+	"github.com/cryptonetworking/go-ethereum/p2p"
+	"github.com/cryptonetworking/go-ethereum/p2p/enode"
+	"github.com/cryptonetworking/go-ethereum/rlp"
 )
 
 const protocolVersion = lpv2

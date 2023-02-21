@@ -21,11 +21,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/eth/downloader"
-	"github.com/Fantom-foundation/go-ethereum/light"
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/cryptonetworking/go-ethereum/common"
+	"github.com/cryptonetworking/go-ethereum/core/rawdb"
+	"github.com/cryptonetworking/go-ethereum/eth/downloader"
+	"github.com/cryptonetworking/go-ethereum/light"
+	"github.com/cryptonetworking/go-ethereum/log"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

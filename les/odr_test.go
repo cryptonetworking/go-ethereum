@@ -23,17 +23,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/math"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/state"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/light"
-	"github.com/Fantom-foundation/go-ethereum/params"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/cryptonetworking/go-ethereum/common"
+	"github.com/cryptonetworking/go-ethereum/common/math"
+	"github.com/cryptonetworking/go-ethereum/core"
+	"github.com/cryptonetworking/go-ethereum/core/rawdb"
+	"github.com/cryptonetworking/go-ethereum/core/state"
+	"github.com/cryptonetworking/go-ethereum/core/types"
+	"github.com/cryptonetworking/go-ethereum/core/vm"
+	"github.com/cryptonetworking/go-ethereum/ethdb"
+	"github.com/cryptonetworking/go-ethereum/light"
+	"github.com/cryptonetworking/go-ethereum/params"
+	"github.com/cryptonetworking/go-ethereum/rlp"
 )
 
 type odrTestFn func(ctx context.Context, db ethdb.Database, config *params.ChainConfig, bc *core.BlockChain, lc *light.LightChain, bhash common.Hash) []byte

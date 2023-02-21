@@ -21,15 +21,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/light"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
-	"github.com/Fantom-foundation/go-ethereum/trie"
+	"github.com/cryptonetworking/go-ethereum/common"
+	"github.com/cryptonetworking/go-ethereum/core/rawdb"
+	"github.com/cryptonetworking/go-ethereum/core/types"
+	"github.com/cryptonetworking/go-ethereum/crypto"
+	"github.com/cryptonetworking/go-ethereum/ethdb"
+	"github.com/cryptonetworking/go-ethereum/light"
+	"github.com/cryptonetworking/go-ethereum/log"
+	"github.com/cryptonetworking/go-ethereum/rlp"
+	"github.com/cryptonetworking/go-ethereum/trie"
 )
 
 var (
